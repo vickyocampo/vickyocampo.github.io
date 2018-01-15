@@ -13,7 +13,7 @@ function sendEmail(subject, data) {
     url: getEmailUrl(), 
     method: "POST",
     data: {message: message},
-    dataType: "json"
+    dataType: "json",
     cache: false,
   });
 }
