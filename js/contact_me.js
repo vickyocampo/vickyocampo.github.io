@@ -39,11 +39,10 @@ $(function() {
             }
             var data = {
                 name: name,
-                phone: phone,
                 email: email,
                 message: message,
             };
-            var subject = "Subject del email";
+            var subject = "Nuevo Lead";
             sendEmail(subject, data).done(() => {
                 // Success message
                 $('#success').html("<div class='alert alert-success'>");
